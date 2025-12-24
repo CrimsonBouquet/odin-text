@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     font-family: Roboto, serif;
-    color: white;
     font-size: 18px;
 }
 
 .overview {
     display: flex;
-    background-color: #1F2937;
+    background-color: #220808;
     flex-direction: column;
-    padding: 8px 48px 80px 200px;
+    padding: 8px 200px 80px;
+    color: white;
+    font-size: 18px;
 
 }
 
@@ -69,10 +67,100 @@ a {
 }
 
 .button {
-    background-color: #3882F6;
+    background-color: #E97B41;
     border: none;
     border-radius: 8px;
     padding: 8px 32px;
     width: fit-content;
+    font-weight: bold;
+    color:white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: #8C2B2B;
+    padding: 16px 200px 100px 200px;
+    color:#220808;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.image-row {
+    display: flex;
+    gap: 32px;
+}
+
+.image-description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.image-description img {
+    border-radius: 16px;
+}
+
+.quote {
+    background-color:#E5CEB2;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 250px;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: flex-end;
+}
+
+.quote-text {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.sign-up {
+    display: flex;
+    padding: 75px 150px;
+    align-items: center;
+    justify-content: center;
+    background-color: #372523;
+}
+
+.sign-up-container {
+    background-color: #E97B41;
+    padding: 50px 100px;
+    border-radius: 8px;
+    color:white;
+    display: flex;
+    align-items: center;
+    gap: 128px;
+    font-weight: 300;
+}
+
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color:#220808;
+    padding: 48px;
+    text-align: center;
+
+}
+
+.sign-up-container .button {
+    border: 2px solid white;
+}
+
+.bold-text {
+    font-size: 24px;
     font-weight: bold;
 }
