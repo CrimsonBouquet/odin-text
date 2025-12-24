@@ -84,6 +84,7 @@ a {
     padding: 16px 300px 100px 300px;
     color:#220808;
     align-items: center;
+
 }
 
 h1 {
@@ -95,6 +96,8 @@ h1 {
 .image-row {
     display: flex;
     gap: 32px;
+    max-width: 200px;
+    justify-content: center;
 }
 
 .image-description {
